@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{9774e20a-84a5-44f8-816f-376ebbaa3a1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="MyHypervisor.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="AsmEpt.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+    <MASM Include="AsmSegmentRegs.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+    <MASM Include="AsmVM.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ept.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Invept.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vmcall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="power_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Invvpid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ept.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineAsm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Invept.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Msr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vmcall.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vmx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_callback.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHyperIOCT.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Invvpid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vmm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

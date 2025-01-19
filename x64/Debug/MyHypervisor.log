@@ -1,0 +1,515 @@
+﻿  Building 'MyHypervisor' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (MyHypervisorDMA.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stamping x64\Debug\MyHypervisor.inf
+  Stamping [Version] section with DriverVer=01/19/2025,1.8.28.156
+  Assembling AsmEpt.asm...
+  Assembling AsmSegmentRegs.asm...
+  Assembling AsmVM.asm...
+  Common.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'Common.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Common.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.c(45,2): warning C4098: 'GetBit': 'void' function returning a value
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.c(60,2): warning C4047: 'return': 'UINT64' differs in levels of indirection from 'PVOID'
+  Driver.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'Driver.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.h(232,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Driver.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(10,69): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(92,35): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(102,33): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(114,34): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(126,34): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Driver.c(144,40): warning C4100: 'DeviceObject': unreferenced formal parameter
+  Ept.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invept.h(25,2): warning C4091: 'typedef ': ignored on left of '_INVEPT_TYPE' when no variable is declared
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'Ept.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Ept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.c(71,102): warning C4047: 'function': 'UINT64' differs in levels of indirection from 'PVOID'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.c(71,102): warning C4024: 'PhysicalAddressToVirtualAddress': different types for formal and actual parameter 1
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.c(141,61): warning C4022: 'PfnFromVirtualAddress': pointer mismatch for actual parameter 1
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.c(399,14): warning C4457: declaration of 'ept_pte' hides function parameter
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.c(388,40):
+      see declaration of 'ept_pte'
+  
+  Invept.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Invept.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invept.h(25,2): warning C4091: 'typedef ': ignored on left of '_INVEPT_TYPE' when no variable is declared
+  (compiling source file 'Invept.c')
+  
+  Invvpid.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invvpid.c(13,2): warning C4098: 'Invvpid': 'void' function returning a value
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invvpid.c(19,2): warning C4098: 'InvvpidIndividualAddress': 'void' function returning a value
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invvpid.c(25,2): warning C4098: 'InvvpidSingleContext': 'void' function returning a value
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invvpid.c(30,2): warning C4098: 'InvvpidAllContexts': 'void' function returning a value
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invvpid.c(36,2): warning C4098: 'InvvpidSingleContextRetainingGlobals': 'void' function returning a value
+  Memory.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(57,28): warning C4242: '=': conversion from 'UINT64' to 'UINT32', possible loss of data
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(50,42): warning C4242: 'initializing': conversion from 'UINT64' to 'UINT32', possible loss of data
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(51,30): warning C4242: 'initializing': conversion from 'UINT64' to 'UINT32', possible loss of data
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(64,24): warning C4100: 'Handle': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(71,59): warning C4100: 'Size': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(71,43): warning C4100: 'Address': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(71,29): warning C4100: 'Handle': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(75,58): warning C4100: 'Size': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(75,42): warning C4100: 'Address': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(75,28): warning C4100: 'Handle': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(80,41): warning C4100: 'Handle': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(84,47): warning C4100: 'memBlock': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Memory.c(88,47): warning C4100: 'memBlock': unreferenced formal parameter
+  power_callback.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'power_callback.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.h(232,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'power_callback.c')
+  
+  util.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'util.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'util.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(28,33): warning C4090: '=': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(38,16): warning C4189: 'pm_size': local variable is initialized but not referenced
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(31,17): warning C4189: 'base_addr': local variable is initialized but not referenced
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(104,44): warning C4100: 'driver_object': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(121,4): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'char [5]'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(121,4): warning C4024: 'ExFreePoolWithTag': different types for formal and actual parameter 2
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\util.c(204,15): warning C4242: 'function': conversion from 'const int' to 'KIRQL', possible loss of data
+  Vm.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'Vm.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.h(232,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invept.h(25,2): warning C4091: 'typedef ': ignored on left of '_INVEPT_TYPE' when no variable is declared
+  (compiling source file 'Vm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(13,23): warning C4189: 'cpu_features': local variable is initialized but not referenced
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(86,53): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(121,21): warning C4242: 'initializing': conversion from 'int' to 'const BOOLEAN', possible loss of data
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(213,2): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(214,2): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(227,2): warning C4090: 'return': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(259,27): warning C4090: '=': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(260,27): warning C4090: '=': different 'const' qualifiers
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(317,27): warning C4133: '=': incompatible types - from 'EPTDATA *' to 'EPTDATA *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(332,32): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(362,54): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(370,55): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(594,73): warning C4133: 'function': incompatible types - from 'EPTDATA *const ' to 'EPTDATA *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(727,52): warning C4133: 'function': incompatible types - from 'const SEGMENT_SELECTOR *' to 'const SEGMENT_DESCRIPTOR *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(729,37): warning C4047: 'function': 'const SEGMENT_DESCRIPTOR *' differs in levels of indirection from 'const int'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(729,37): warning C4024: 'GetSegmentBaseByDescriptor': different types for formal and actual parameter 1
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(733,37): warning C4133: 'function': incompatible types - from 'const SEGMENT_SELECTOR *' to 'const SEGMENT_DESCRIPTOR *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(726,27): warning C4133: 'initializing': incompatible types - from 'SEGMENT_DESCRIPTOR *' to 'const SEGMENT_SELECTOR *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(727,25): warning C4242: 'initializing': conversion from 'ULONG_PTR' to 'const int', possible loss of data
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(728,14): warning C4047: 'initializing': 'const int' differs in levels of indirection from 'SEGMENT_DESCRIPTOR *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(732,27): warning C4133: 'initializing': incompatible types - from 'SEGMENT_DESCRIPTOR *' to 'const SEGMENT_SELECTOR *'
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vm.c(781,32): warning C4133: 'function': incompatible types - from 'EPTDATA *' to 'EPTDATA *'
+  Vmcall.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invept.h(25,2): warning C4091: 'typedef ': ignored on left of '_INVEPT_TYPE' when no variable is declared
+  (compiling source file 'Vmcall.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(13,9): warning C4189: 'address': local variable is initialized but not referenced
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(60,56): warning C4100: 'size': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(60,43): warning C4100: 'dest': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(60,29): warning C4100: 'source': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(64,57): warning C4100: 'size': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(64,44): warning C4100: 'dest': unreferenced formal parameter
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmcall.c(64,30): warning C4100: 'source': unreferenced formal parameter
+  Vmm.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(134,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(43,9): warning C4005: 'MSR_IA32_VMX_EPT_VPID_CAP': macro redefinition
+  (compiling source file 'Vmm.c')
+      C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Msr.h(24,9):
+      see previous definition of 'MSR_IA32_VMX_EPT_VPID_CAP'
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.h(232,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(19,2): warning C4091: 'typedef ': ignored on left of '_SEGMENT_REGISTERS' when no variable is declared
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Common.h(94,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Invept.h(25,2): warning C4091: 'typedef ': ignored on left of '_INVEPT_TYPE' when no variable is declared
+  (compiling source file 'Vmm.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.c(243,49): warning C4022: 'VmxVmcallMemoryHandler': pointer mismatch for actual parameter 2
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.c(243,65): warning C4022: 'VmxVmcallMemoryHandler': pointer mismatch for actual parameter 3
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmm.c(125,8): warning C4189: 'processor': local variable is initialized but not referenced
+  Vmx.c
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(249,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(756,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(799,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(824,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(860,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(903,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Ept.h(1009,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(302,2): warning C4091: 'typedef ': ignored on left of '_VMCS_FIELDS' when no variable is declared
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(357,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+C:\Users\Derek\Desktop\Project\MyHypervisor\MyHypervisor\Vmx.h(358,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'Vmx.c')
+  
+  Generating Code...
+  MyHypervisor.vcxproj -> C:\Users\Derek\Desktop\Project\MyHypervisor\x64\Debug\MyHypervisor.sys
